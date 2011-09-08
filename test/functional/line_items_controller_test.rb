@@ -34,7 +34,6 @@ class LineItemsControllerTest < ActionController::TestCase
     end
   end
 
-
   test "should show line_item" do
     get :show, :id => @line_item.to_param
     assert_response :success
