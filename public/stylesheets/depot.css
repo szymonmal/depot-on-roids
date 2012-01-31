@@ -120,6 +120,7 @@
   font-family: sans-serif;
 }
 
+#store .entry input,
 #store .entry img {
   width: 80px;
   margin-right: 5px;
