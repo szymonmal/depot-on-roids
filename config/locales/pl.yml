@@ -1,0 +1,55 @@
+pl:
+  layouts:
+    application:
+      title: "Pragmatyczna Księgarnia"
+      home: "Strona główna"
+      questions: "Pytania"
+      news: "Nowości"
+      contact: "Kontakt"
+  store:
+    index:
+      title_html: "Twój Pragmatyczny Katalog"
+      add: "Dodaj do koszyka"
+  carts:
+    cart:
+      title: "Twój Koszyk"
+      empty: "Opróżnij"
+      checkout: "Zamów"
+  number:
+    currency:
+      format:
+        unit: "$US"
+        precision: 2
+        separator: ","
+        delimiter: "."
+        format: "%n&nbsp;%u"
+  orders:
+    new:
+      legend: "Proszę uzupełnić dane do zamówienia"
+    form:
+      name: "Imię i nazwisko"
+      address: "Adres"
+      email: "E-mail"
+      pay_type: "Płacę przy pomocy"
+      pay_prompt: "Wybierz formę zapłaty"
+      submit: "Złóż zamówienie"
+  activerecord:
+    errors:
+      messages:
+        inclusion: "należy wybrać z listy jedną z opcji"
+        blank: "nie może być puste"
+    models:
+      order: "zamówienie"
+    attributes:
+      order:
+        name: "Imię i nazwisko"
+        address: "Adres"
+        email: "E-mail"
+        pay_type: "Płacę przy pomocy"
+  errors:
+    template:
+      body: "opis"
+      header:
+        one: "1 błąð nie pozwolił na złożenie zamówienia"
+        other: "%{model} ma %{count} błędów:"
+  thanks: "Dziękujemy za złożenie zamówienia."

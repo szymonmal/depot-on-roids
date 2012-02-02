@@ -120,7 +120,7 @@
   font-family: sans-serif;
 }
 
-#store .entry input,
+#store .entry input[type="image"],
 #store .entry img {
   width: 80px;
   margin-right: 5px;
@@ -173,7 +173,7 @@
 }
 
 #cart, #cart table {
-  font-size: smaller;
+  font-size: 13px;
   color: white;
 }
 
@@ -197,7 +197,7 @@
 }
 
 .depot_form label {
-  width: 5em;
+  width: 10em;
   float: left;
   text-align: right;
   padding-top: 0.2em;
@@ -217,3 +217,7 @@
   margin: 0.5em 0;
 }
 
+.locale {
+  float: right;
+  padding-top: 0.2em;
+}
